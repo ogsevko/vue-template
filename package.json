@@ -7,7 +7,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "./deploy.sh",
     "lint:js": "eslint ./src",
     "lint:css": "stylelint ./src",
     "lint:html": "linthtml ./src",
@@ -30,6 +30,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "gh-pages": "^3.1.0",
+    "husky": "^4.2.5",
     "node-sass": "^4.14.1",
     "stylelint": "^13.6.1",
     "vue-template-compiler": "^2.6.11"
